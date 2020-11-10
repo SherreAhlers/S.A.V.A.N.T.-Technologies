@@ -1,0 +1,23 @@
+#nav-bar {
+   background-color: darkblue;
+   justify-content: center;
+   align-items: center;
+}
+
+.nav-link,
+.navbar-brand {
+    color: darkblue;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 3em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
