@@ -1,18 +1,24 @@
 #nav-bar {
    background-color: darkblue;
-   justify-content: center;
-   align-items: center;
+   padding: 20px;
+   /* justify-content: center;
+   align-items: center; */
+   
+}
+#header {
+    text-align: center;
+    font-size: 60px;
 }
 
-.nav-link,
+/* .nav-link,
 .navbar-brand {
     color: darkblue;
     cursor: pointer;
-}
+} */
 
-.nav-link {
+/* .nav-link {
     margin-right: 3em !important;
-}
+} */
 
 .nav-link:hover {
     color: #000;
@@ -21,6 +27,11 @@
 .navbar-collapse {
     justify-content: flex-end;
 }
+
+.nav-item {
+    padding-left: 30px;
+}
+
 
 .controller-card {
     display: flex;
@@ -75,4 +86,16 @@ background-color: blue;
     border-width: 100px;
     border-style: solid;
     border-radius: 35%;
+}
+
+.copyright-card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#consultation-form {
+    width: 100px;
+    justify-content: center;
+    align-items: center;
 }
