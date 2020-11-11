@@ -21,3 +21,58 @@
 .navbar-collapse {
     justify-content: flex-end;
 }
+
+.controller-card {
+    display: flex;
+    background-color: grey;
+    /* border-color: black;
+    border-width: 20px;  */
+    width: 500px;
+    height: 500px;
+    /* justify-content: center;
+    align-items: center;  */
+    
+
+}
+
+.drag-img {
+width: 75px;
+height: 75px;
+background-color: blue;
+/* border-radius: 35%; */
+}
+
+.drag-img2 {
+    width: 75px;
+    height: 75px;
+    background-color: green;
+    /* border-radius: 35%; */
+}
+
+.drag-img3 {
+    width: 75px;
+    height: 75px;
+    background-color: pink;
+    /* border-radius: 35%; */
+}
+
+.drag-img4 {
+    width: 75px;
+    height: 75px;
+    background-color: purple;
+    /* border-radius: 35%; */
+}
+
+/* .controller-card-border {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-color: green;
+} */
+
+.thick-black-border {
+    border-color: black;
+    border-width: 100px;
+    border-style: solid;
+    border-radius: 35%;
+}
