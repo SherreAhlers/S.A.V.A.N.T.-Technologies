@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+
 #nav-bar {
    background-color: darkblue;
    padding: 20px;
@@ -123,3 +129,90 @@ h4 {
       justify-content: center;
   }
  
+  .show-model, .show-model2, .show-model3, .show-model4 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1.75rem 3.5rem;
+    margin: 5rem 2rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10rem;
+    cursor: pointer;
+  }
+
+  .close-model3, .close-model4 {
+    position: sticky; 
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  .close-model, .close-model2 {
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .model, .model2 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+  
+    background-color: blue;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+  }
+
+  #nano-box-color-popup {
+    width: 300px;
+    height: 300px;
+    
+  }
+
+  #solo-color-popup {
+    width: 300px;
+    height: 300px;
+    
+  }
+
+  .visual-playground-sono-colors, .visual-playground-nano-coloras {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
+
+
+h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
