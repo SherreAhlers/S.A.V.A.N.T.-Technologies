@@ -1,218 +1,192 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-  }
-
-#nav-bar {
-   background-color: darkblue;
-   padding: 20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-#header {
-    text-align: center;
-    font-size: 60px;
+#nav-bar {
+  background-color: darkblue;
+  padding: 20px;
 }
 
 .nav-link:hover {
-    color: #000;
+  color: #000;
 }
 
 .navbar-collapse {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .nav-item {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
-.controller-card {
-    display: flex;
+#header {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Goldman', cursive;
 }
 
-.copyright-card {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+#container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
 }
 
-#consultation-form {
-    width: 100px;
-    justify-content: center;
-    align-items: center;
-}
-.controller-card {
-    display: flex;
-    background-color: black;
-    border-radius: 15%;
-    /* height: 200px; */
-    justify-content: center;
-    align-items: center;
+h4, h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-h4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+p, h4 {
+  font-family: 'Rokkitt', serif;
 }
-
- #div-1, #div-2, #div-3, #div-4, #div-5 {
-    display: inline;
-    float: center;
-    margin: 15px;
-    border: 3px dotted #666;
-    background-color: black;
-    width: 100px;
-    height: 100px;
-    border-radius: 15%;
-    padding: 20px;
-  } 
-  #div1, #div2, #div3, #div4, #div5 {
-      display: inline;
-      width: 200px;
-      height: 200px;
-  } 
-
-  .manufactures-title {
-      padding: 15px;
-  }
-
-  #denon, #dsc, #heos, #marantz, #si, #sonos, #total-control, #urc {
-      display: inline-block;
-      align-self: center;
-      padding: 20px;
-      width: 125px;
-      height: 125px;
-      border: 2px solid black;
-      background-color: black;
-  }
-
-  #araknis, #atlona, #atm, #autonomic, #benq, #binary, #denon1, #dragonfly, #dsc1, #episode, #epson, #heos1, #hik, #kordz, #livewall, #logitech, #luma, #lutron, #luxul, #marantz1, #monitor, #omni, #peerless, #perfect, #phase, #pioneer, #polk, #rockustics, #russound, #si1, #simplified, #solid, #strong, #sun, #surgex, #syzygy, #tributaries, #urc1, #watt, #boston, #celerity, #definitive {
-    display: inline-block;
-    align-self: center;
-    padding: 20px;
-    width: 125px;
-    height: 125px;
-    border: 2px solid black;
-    background-color: black;
-  }
-
-  #about-div {
-      display: flex;
-      justify-content: center;
-      align-self: center;
-      padding: 20px;
-  }
-
-  #about-image1 {
-      justify-content: center;
-      align-items: center;
-      padding: 10px;
-  }
-
-  #about-image2 {
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    padding: 10px;
-}
-#about-image3 {
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    padding: 10px;
-}
-
-  .experience-title, .thumb-title,.satisfaction-title {
-      display: inline-block;
-      align-items: center;
-      justify-content: center;
-  }
- 
-  .show-model, .show-model2, .show-model3, .show-model4 {
-    font-size: 2rem;
-    font-weight: 600;
-    padding: 1.75rem 3.5rem;
-    margin: 5rem 2rem;
-    border: none;
-    background-color: black;
-    color: white;
-    border-radius: 10rem;
-    cursor: pointer;
-  }
-
-  .close-model3, .close-model4 {
-    position: sticky; 
-    top: 1.2rem;
-    right: 2rem;
-    font-size: 5rem;
-    color: #333;
-    cursor: pointer;
-    border: none;
-    background: none;
-  }
-  .close-model, .close-model2 {
-    position: absolute;
-    top: 1.2rem;
-    right: 2rem;
-    font-size: 5rem;
-    color: #333;
-    cursor: pointer;
-    border: none;
-    background: none;
-  }
-
-  .hidden {
-    display: none;
-  }
-
-  .model, .model2 {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-  
-    background-color: blue;
-    padding: 6rem;
-    border-radius: 5px;
-    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
-    z-index: 10;
-  }
-
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(3px);
-    z-index: 5;
-  }
-
-  #nano-box-color-popup {
-    width: 300px;
-    height: 300px;
-    
-  }
-
-  #solo-color-popup {
-    width: 300px;
-    height: 300px;
-    
-  }
-
-  .visual-playground-sono-colors, .visual-playground-nano-coloras {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-  }
-
 
 h5 {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px;
+}
+
+#about-div {
+  display: grid;
+  grid-column: auto;
+  grid-row: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-image1, #about-image2, #about-image3 {
+  display: grid;
+  grid-column: auto;
+  grid-row: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.experience-title, .thumb-title,.satisfaction-title {
+  text-align: center;
+}
+  
+.experience-p, .thumb-p, .satisfaction-p {
+  text-align: justify;
+}
+
+.controller-card {
+  display: flex;
+  position: relative;
+  background-color: black;
+  border-radius: 40%;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+} 
+
+#div-1, #div-2, #div-3, #div-4, #div-5 {
+  display: inline;
+  float: center;
+  margin: 15px;
+  border: 3px dotted #666;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  border-radius: 15%;
+  padding: 10px;
+} 
+
+#div1, #div2, #div3, #div4, #div5 {
+  display: inline;
+  width: 200px;
+  height: 200px;
+  padding-left: 50px;
+} 
+ 
+.show-model, .show-model2, .show-model3, .show-model4 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.75rem 3.5rem;
+  margin: 5rem 2rem;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.close-model3, .close-model4 {
+  position: sticky; 
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.close-model, .close-model2 {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.model, .model2 {
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  position: absolute;
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+.manufactures-title {
+  padding: 15px;
+  font-family: 'Goldman', cursive;
+}
+
+#denon, #dsc, #heos, #marantz, #si, #sonos, #total-control, #urc {
+  display: inline-block;
+  align-self: center;
+  padding: 20px;
+  width: 125px;
+  height: 125px;
+  border: 2px solid black;
+  background-color: black;
+}
+
+#araknis, #atlona, #atm, #autonomic, #benq, #binary, #denon1, #dragonfly, #dsc1, #episode, #epson, #heos1, #hik, #kordz, #livewall, #logitech, #luma, #lutron, #luxul, #marantz1, #monitor, #omni, #peerless, #perfect, #phase, #pioneer, #polk, #rockustics, #russound, #si1, #simplified, #solid, #strong, #sun, #surgex, #syzygy, #tributaries, #urc1, #watt, #boston, #celerity, #definitive {
+  display: inline-block;
+  align-self: center;
+  padding: 20px;
+  width: 125px;
+  height: 125px;
+  border: 2px solid black;
+  background-color: black;
+}
+
+#consultation-form {
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright-card {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
